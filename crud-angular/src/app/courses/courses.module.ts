@@ -9,6 +9,7 @@ import { AppMaterialModule } from '../shared/app-material/app-material.module';
 
 
 
+
 @NgModule({
   declarations: [
     CoursesComponent
@@ -17,6 +18,7 @@ import { AppMaterialModule } from '../shared/app-material/app-material.module';
     CommonModule,
     CoursesRoutingModule,
     AppMaterialModule
+
   ]
 })
 export class CoursesModule { }
